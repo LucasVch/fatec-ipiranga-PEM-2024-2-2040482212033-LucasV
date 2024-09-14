@@ -1,0 +1,4 @@
+
+    Gerenciamento do Tabuleiro : Esta parte é responsável por criar e gerenciar o tabuleiro do jogo.
+    Lógica de Jogada: Esta parte é responsável por lidar com a lógica da jogada do bispo.
+    Fluxo do Jogo: Esta parte é responsável por controlar o fluxo do jogo.
