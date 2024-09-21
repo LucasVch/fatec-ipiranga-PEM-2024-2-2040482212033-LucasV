@@ -1,3 +1,12 @@
+/*--------------------------------------------------------*
+* Disciplina: Programaçao Estruturada e Modular *
+*          Prof. Carlos Veríssimo                                    *
+*--------------------------------------------------------*
+* Objetivo do Programa: *************
+* Data - 23/08/2024                                             * 
+* Autor: Giulia Diaz; Lucas Vinicius Silva*
+*--------------------------------------------------------*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

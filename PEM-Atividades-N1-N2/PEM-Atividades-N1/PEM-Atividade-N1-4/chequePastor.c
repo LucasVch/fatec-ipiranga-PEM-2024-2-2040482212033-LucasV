@@ -1,3 +1,12 @@
+/*--------------------------------------------------------*
+* Disciplina: Programaçao Estruturada e Modular *
+*          Prof. Carlos Veríssimo                                    *
+*--------------------------------------------------------*
+* Objetivo do Programa: *************
+* Data - 12/09/2024                                             * 
+* Autor: Giulia Diaz; Lucas Vinicius Silva*
+*--------------------------------------------------------*/
+
 #include <stdio.h>
 
 #define TAMANHO 8
