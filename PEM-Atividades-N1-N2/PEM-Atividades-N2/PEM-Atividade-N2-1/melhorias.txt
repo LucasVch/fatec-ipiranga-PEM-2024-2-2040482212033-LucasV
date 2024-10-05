@@ -1,0 +1,7 @@
+Professor, após revisar o código que implementei em C, identifiquei alguns pontos que poderiam ser melhorados para torná-lo mais robusto, eficiente e seguro. Seguem as considerações:
+
+Validação de entrada
+Atualmente, o código não valida as entradas fornecidas pelo usuário. Isso pode gerar problemas caso um número negativo seja inserido para o tamanho do array ou se a entrada não for numérica. A solução seria implementar verificações para garantir que o valor de n seja positivo e que as entradas fornecidas sejam válidas.
+
+Otimização do Bubble Sort
+No código atual, o Bubble Sort realiza todas as iterações mesmo que o array já esteja ordenado antes do final. Isso pode ser otimizado com uma flag que interrompe o laço quando o array estiver ordenado durante uma iteração.
