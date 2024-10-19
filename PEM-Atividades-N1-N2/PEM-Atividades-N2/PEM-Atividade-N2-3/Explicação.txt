@@ -1,0 +1,13 @@
+Variáveis principais:
+
+arr[]: É o array que armazena os elementos que serão ordenados.
+pivo: Armazena o valor do pivô em cada chamada da função particao.
+ind e j: São usados para marcar as posições dos elementos no array durante o processo de partição.
+As funções recursivas de quickSort terão cópias locais de limInf, limSup e indParticao.
+Ciclos de recursividade:
+
+A cada chamada recursiva, as variáveis locais serão criadas e destruídas após a execução da função, mas o array (arr[]) é sempre passado por referência, portanto as mudanças feitas no array afetam diretamente o estado global dele.
+Estados de memória:
+
+Estado inicial: arr = {100, 70, 90, 90, 10, 40, 30}, com limInf = 0 e limSup = 6 no início da primeira chamada.
+Durante as chamadas recursivas, o array vai mudando conforme as trocas de elementos feitas na função particao, e o pivo escolhido será o último elemento da sublista em cada recursão.
